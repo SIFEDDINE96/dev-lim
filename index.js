@@ -1,17 +1,17 @@
-function DevLim(func) {
+function DevLim(func, param ='x') {
     const supported_functions = {
 
-        e: '1 + x/1 + x^2/2 + x^3/6',
-        sh: 'x + x^3/6',
-        ch: '1 + x^2/2',
-        sin: 'x - x^3/6',
-        cos: '1 - x^2/2',
-        tan: 'x + x^3/3',
-        th: 'x - x^3/3',
-        arctan: 'x - x^3/3',
-        argth: 'x + x^3/3',
-        arcsin:'x - x^3/6',
-        argsh:'x - x^3/6',
+        e: `1 + ${param}/1 + ${param}^2/2 + ${param}^3/6`,
+        sh: `${param} + ${param}^3/6`,
+        ch: `1 + ${param}^2/2`,
+        sin: `${param} - ${param}^3/6`,
+        cos: `1 - ${param}^2/2`,
+        tan: `${param} + ${param}^3/3`,
+        th: `${param} - ${param}^3/3`,
+        arctan: `${param} - ${param}^3/3`,
+        argth: `${param} + ${param}^3/3`,
+        arcsin:`${param} - ${param}^3/6`,
+        argsh:`${param} - ${param}^3/6`,
 
     };
 
