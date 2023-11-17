@@ -20,5 +20,5 @@ const DevLim = require('DevLim');
 let DevLimValue =  DevLim('sin', 'a'); // Second parameter is optional with 'x' default value
 console.log(DevLimValue);
 
-//Output 
+Output :
 a - a^3/6
