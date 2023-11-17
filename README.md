@@ -1,4 +1,4 @@
-# dev_lim ! What is this package ?
+# devLim ! What is this package ?
 
 This is a package which provides the series expansion of the usual functions expansion around zero, up to the 3th order.
 It mainly covers the following functions : e, sh, ch, sin, cos, tan, th, arctan, argth, arcsin, argsh
@@ -11,7 +11,7 @@ It mainly covers the following functions : e, sh, ch, sin, cos, tan, th, arctan,
 - Calculation of probabilities  : Calculate probabilities of complex probability distributions
 # Installation :
 
-npm i dev_lim
+npm i devLim
 
 # Example of use :
 
