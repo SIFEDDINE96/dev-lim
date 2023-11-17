@@ -1,4 +1,4 @@
-function DevLim(func, param ='x') {
+function devlim(func, param ='x') {
     const supported_functions = {
 
         e: `1 + ${param}/1 + ${param}^2/2 + ${param}^3/6`,
@@ -22,4 +22,4 @@ function DevLim(func, param ='x') {
     }
 }
 
-module.exports = DevLim;
+module.exports = devlim;

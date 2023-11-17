@@ -15,10 +15,10 @@ npm i devlim
 
 # Example of use :
 
-const DevLim = require('DevLim');
+const devlim = require('devlim');
 
-let DevLimValue =  DevLim('sin', 'a'); // Second parameter is optional with 'x' default value
-console.log(DevLimValue);
+let devLimValue =  devlim('sin', 'a'); // Second parameter is optional with 'x' default value
+console.log(devLimValue);
 
 Output :
 a - a^3/6
